@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diego Jiménez - Ingeniero Civil Industrial</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Diego Jiménez</div>
+            <ul class="nav-menu">
+                <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li><a href="#sobre-mi" class="nav-link">Sobre Mí</a></li>
+                <li><a href="#educacion" class="nav-link">Educación</a></li>
+                <li><a href="#experiencia" class="nav-link">Experiencia</a></li>
+                <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+                <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Diego Nicolás Jiménez Espinoza</h1>
+            <h2 class="hero-subtitle">Estudiante de Ingeniería Civil Industrial</h2>
+            <p class="hero-description">
+                Proactivo, organizado y con pasión por la mejora continua y la toma de decisiones basada en datos.
+            </p>
+            <div class="hero-buttons">
+                <a href="#contacto" class="btn btn-primary">Contactar</a>
+                <a href="CV Diego Jiménezc.pdf" class="btn btn-secondary" download>
+                    <i class="fas fa-download"></i> Descargar CV
+                </a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="profile-img">
+                <i class="fas fa-user-tie"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Mí -->
+    <section id="sobre-mi" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre Mí</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Soy una persona con un sólido desempeño académico y habilidades destacadas en liderazgo y responsabilidad. Me caracterizo por ser proactivo, organizado y responsable, destacando en el trabajo en equipo y la rápida toma de decisiones.</p>
+                    <p>Mi enfoque se centra en la mejora continua de procesos y el análisis de datos para la toma de decisiones informadas. Busco contribuir de manera positiva en entornos dinámicos y desafiantes que me permitan seguir desarrollando mi carrera profesional.</p>
+                </div>
+                <div class="about-values">
+                    <h3>Valores Profesionales</h3>
+                    <div class="values-grid">
+                        <div class="value-item">
+                            <i class="fas fa-handshake"></i>
+                            <span>Compromiso</span>
+                        </div>
+                        <div class="value-item">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>Innovación</span>
+                        </div>
+                        <div class="value-item">
+                            <i class="fas fa-balance-scale"></i>
+                            <span>Ética</span>
+                        </div>
+                        <div class="value-item">
+                            <i class="fas fa-users"></i>
+                            <span>Trabajo en Equipo</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Educación -->
+    <section id="educacion" class="education">
+        <div class="container">
+            <h2 class="section-title">Educación</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2021 - 2026</div>
+                    <div class="timeline-content">
+                        <h3>Universidad de La Frontera</h3>
+                        <h4>Ingeniería Civil Industrial</h4>
+                        <p>Formación en procesos industriales, optimización, análisis de datos y gestión de operaciones.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2017 - 2020</div>
+                    <div class="timeline-content">
+                        <h3>Liceo Bicentenario Luis González Vásquez</h3>
+                        <h4>Educación Media</h4>
+                        <p>Formación académica con enfoque en ciencias y matemáticas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section id="experiencia" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experiencia</h2>
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <div class="card-header">
+                        <h3>Proyecto Data Mining - SAMU</h3>
+                        <span class="date">Marzo 2025 - Julio 2025</span>
+                    </div>
+                    <div class="card-body">
+                        <p>Desarrollo de programa de interpretación de lenguaje natural para minería de datos clínicos en Temuco.</p>
+                        <ul>
+                            <li>Automatización de procesos de análisis de datos médicos</li>
+                            <li>Mejora en la interpretación de datos clínicos</li>
+                            <li>Uso de Excel y software de procesos</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="experience-card">
+                    <div class="card-header">
+                        <h3>Práctica I - Municipalidad de Nueva Imperial</h3>
+                        <span class="date">Enero 2024 - Febrero 2024</span>
+                    </div>
+                    <div class="card-body">
+                        <p>Apoyo en proyectos del Hospital Intercultural de Nueva Imperial.</p>
+                        <ul>
+                            <li>Elaboración de antecedentes en Excel para proyectos</li>
+                            <li>Formulación de perfil de proyecto para reposición de centro de entrenamiento</li>
+                            <li>Aprendizaje en gestión pública y formulación de proyectos</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="experience-card">
+                    <div class="card-header">
+                        <h3>Congreso de Ingeniería Global</h3>
+                        <span class="date">Agosto 2024</span>
+                    </div>
+                    <div class="card-body">
+                        <p>Participación en taller especializado en optimización de procesos.</p>
+                        <ul>
+                            <li>Taller: "Optimizando Rutas de Despacho para Vehículos de Reparto"</li>
+                            <li>Interés en logística y optimización de procesos</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="experience-card">
+                    <div class="card-header">
+                        <h3>Taller de Liderazgo</h3>
+                        <span class="date">Junio 2018</span>
+                    </div>
+                    <div class="card-body">
+                        <p>Participación en desarrollo de habilidades blandas.</p>
+                        <ul>
+                            <li>Taller: "Desarrollo del Liderazgo y Gestión del Tiempo"</li>
+                            <li>Centro Cultural</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades" class="skills">
+        <div class="container">
+            <h2 class="section-title">Habilidades Técnicas</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-chart-line"></i> Análisis de Datos</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>Excel Avanzado</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Control de Análisis de Datos</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-cogs"></i> Desarrollo de Proyectos</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>Manejo de Software de Procesos</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Herramientas de Diseño</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-language"></i> Idiomas</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>Inglés Intermedio</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="projects">
+        <div class="container">
+            <h2 class="section-title">Proyectos Destacados</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Minería de Datos Clínicos - SAMU</h3>
+                    <p>Programa de interpretación de lenguaje natural para análisis de datos médicos en Temuco.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">NLP</span>
+                        <span class="tech-tag">Excel</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-route"></i>
+                    </div>
+                    <h3>Optimización de Rutas de Despacho</h3>
+                    <p>Aplicación de modelos logísticos para mejorar la eficiencia en el transporte de reparto.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Optimización</span>
+                        <span class="tech-tag">Logística</span>
+                        <span class="tech-tag">Análisis</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Correo Electrónico</h3>
+                            <p>imenez.c.colas@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Teléfono</h3>
+                            <p>+56 9 4908 4201</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Ubicación</h3>
+                            <p>Nueva Imperial, Región de La Araucanía, Chile</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Tu correo" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Tu mensaje" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Diego Jiménez. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
